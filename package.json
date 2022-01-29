@@ -13,10 +13,12 @@
     "dotenv": "^14.3.2",
     "express": "^4.17.2",
     "knex": "^0.95.15",
-    "sqlite3": "^5.0.2"
+    "sqlite3": "^5.0.2",
+    "supertest": "^6.2.2"
   },
   "devDependencies": {
     "@types/jest": "^27.4.0",
+    "cross-env": "^7.0.3",
     "eslint": "^8.7.0",
     "jest": "^27.4.7",
     "nodemon": "^2.0.15"

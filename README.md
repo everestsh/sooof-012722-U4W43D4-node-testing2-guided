@@ -18,12 +18,15 @@ Please follow along as the instructor adds automated tests to the API.
 
  npm i -D jest @types/jest
  npx jest --init
+ npm i supertest
  npm i -D cross-env 
 "test": "jest --verbose --runInBand"
 
  LADY_GAGA="lady gaga" node foo.js
 
 "test": "cross-env NODE_ENV=testing jest --verbose --runInBand"
+
+"test": "cross-env NODE_ENV=testing jest --verbose --runInBand --forceExit"
 
 this repo 
 https://github.com/bloominstituteoftechnology/node-testing2-guided/tree/lecture
